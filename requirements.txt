@@ -1,0 +1,14 @@
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+Pillow
+opencv-python
+mlflow
+jupyter
+ipykernel
+tqdm
+scikit-image

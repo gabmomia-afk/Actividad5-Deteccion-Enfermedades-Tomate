@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dataset original y procesado
+datos/plantvillage_repo/
+datos/datos_ini/
+datos/datos_limp/
+
+# Caracteristicas generadas
+datos/caracteristicas.csv
+datos/train.csv
+datos/test.csv
+
+# Base de datos MLflow
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+
+# Modelos entrenados
+modelos/*.pkl
+modelos/*.joblib
+modelos/*.skops
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuracion local
+.env
