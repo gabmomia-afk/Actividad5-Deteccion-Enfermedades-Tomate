@@ -1,0 +1,3 @@
+﻿Conjunto,Archivo,Registros,Columnas,SHA256,Version,Fecha_registro,Descripcion
+Entrenamiento,train.csv,3588,1766,5d6c812849dc74e26ade8507dd262f23b15014260b00ab499f6af9cb24831fba,1.0,2026-10-18 17:08:02,PlantVillage - Características HOG - Clasificación de enfermedades en tomate
+Prueba,test.csv,898,1766,deec4e79b2c757054229ebf5bc33e9388d258ca7fdab952bb199e9b303c0c269,1.0,2026-10-18 17:08:02,PlantVillage - Características HOG - Clasificación de enfermedades en tomate
