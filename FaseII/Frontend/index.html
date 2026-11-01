@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Vivero Oruga IA</title>
+
+    <!-- Estilos servidos por FastAPI -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <main class="contenedor">
+
+        <header>
+            <h1>🌿 Vivero Oruga IA</h1>
+            <p>
+                Detección de enfermedades
+                en hojas de tomate
+            </p>
+        </header>
+
+        <section class="panel">
+
+            <h2>Analizar una planta</h2>
+
+            <p>
+                Selecciona una fotografía
+                de una hoja de tomate.
+            </p>
+
+            <input
+                type="file"
+                id="imagen"
+                accept="image/jpeg,image/png"
+            >
+
+            <img
+                id="vistaPrevia"
+                alt="Vista previa de la hoja"
+                hidden
+            >
+
+            <button id="analizar">
+                Analizar imagen
+            </button>
+
+            <p id="estado" role="status"></p>
+
+            <div id="resultado" hidden>
+
+                <h3>Resultado del análisis</h3>
+
+                <p id="diagnostico"></p>
+
+                <p id="confianza"></p>
+
+                <small>
+                    Resultado orientativo.
+                    Requiere validación humana.
+                </small>
+
+            </div>
+
+        </section>
+
+        <footer>
+            Prototipo académico |
+            Maestría en Inteligencia Artificial
+        </footer>
+
+    </main>
+
+    <!-- JavaScript servido por FastAPI -->
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

@@ -34,3 +34,9 @@ Thumbs.db
 
 # Configuracion local
 .env
+
+# Paquetes ZIP de entrega
+evidencias_actividad5.zip
+
+# Archivos temporales de documentacion
+FaseII/Documentacion/__pycache__/

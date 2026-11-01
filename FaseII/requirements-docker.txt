@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+Pillow
+numpy==2.4.6
+scikit-learn==1.9.1
+scikit-image==0.26.0
+opencv-python-headless==5.0.0.93
+skops==0.16.0
